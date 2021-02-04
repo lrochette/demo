@@ -112,4 +112,4 @@ Again, using `kubectl apply -f...` and keeping your manifests tracked in source 
 
 ### Service port 8888 VS 9999
 
-Depending on which version of the book you read you may see reference to using port `9999` for the service port [here](https://github.com/cloudnativedevops/demo/blob/master/hello-k8s/k8s/service.yaml). This caused some confusion between the pod port, service port, and the port-forwarding port in the examples, so was changed in the latest revision to use `8888` for both the pod and the serivce. Thanks to @randoljt for catching this and sorry for any confusion.
+Depending on which version of the book you read you may see reference to using port `9999` for the service port [here](https://github.com/lrochette/demo/blob/master/hello-k8s/k8s/service.yaml). This caused some confusion between the pod port, service port, and the port-forwarding port in the examples, so was changed in the latest revision to use `8888` for both the pod and the serivce. Thanks to @randoljt for catching this and sorry for any confusion.

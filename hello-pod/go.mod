@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-pod
+module github.com/lrochette/demo/hello-pod

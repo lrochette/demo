@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-cloudbuild
+module github.com/lrochette/demo/hello-cloudbuild

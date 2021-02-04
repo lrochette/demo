@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-secret-file
+module github.com/lrochette/demo/hello-secret-file

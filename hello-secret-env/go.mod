@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-secret-env
+module github.com/lrochette/demo/hello-secret-env

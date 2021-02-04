@@ -22,17 +22,13 @@ steps:
   build:
     title: "Building Docker image"
     type: "build"
-    image_name: "myhello"
-    working_directory: "${{clone}}"
     tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
     dockerfile: "Dockerfile"
     stage: "build"
-
-  test:
-    title: "Running test"
-    type: "freestyle" # Run any command
-    image: "ubuntu:latest" # The image in which command will be executed
-    working_directory: "${{clone}}" # Running command where code cloned
-    commands:
-      - "ls"
-    stage: "test"
+    scale:
+        hello:
+          working_directory: "${{clone}}/hello"
+          image_name: "hello"
+        hello-done:
+          working_directory: "${{clone}}/hello-drone"
+          image_name: "hello-drone"

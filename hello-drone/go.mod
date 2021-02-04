@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-drone
+module github.com/lrochette/demo/hello-drone

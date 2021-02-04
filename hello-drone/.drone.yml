@@ -1,6 +1,6 @@
 workspace:
   base: /go
-  path: src/github.com/cloudnativedevops/demo
+  path: src/github.com/lrochette/demo
 
 pipeline:
   build:

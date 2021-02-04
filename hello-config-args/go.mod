@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-config-args
+module github.com/lrochette/demo/hello-config-args

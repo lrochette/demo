@@ -1,1 +1,1 @@
-module github.com/cloudnativedevops/demo/hello-config-env
+module github.com/lrochette/demo/hello-config-env
