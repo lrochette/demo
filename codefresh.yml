@@ -20,15 +20,17 @@ steps:
     stage: "clone"
 
   build:
-    title: "Building Docker image"
+    title: "Building Docker images"
     type: "build"
     tag: "${{CF_BRANCH_TAG_NORMALIZED}}"
     dockerfile: "Dockerfile"
     stage: "build"
     scale:
         hello:
+          title: "Building hello images"
           working_directory: "${{clone}}/hello"
-          image_name: "hello"
-        hello-done:
+          image_name: "lrochette/hello"
+        hello-drone:
+          title: "Building hello-drone images"
           working_directory: "${{clone}}/hello-drone"
-          image_name: "hello-drone"
+          image_name: "lrochette/hello-drone"
